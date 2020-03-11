@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG_AddOnVault", "AG_AddOnVault\AG_AddOnVault.csproj", "{2E1DD661-4BD3-4414-9065-81C072D62D09}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AG_AddOnVault.Win.Setup", "AG_AddOnVault.Win.Setup\AG_AddOnVault.Win.Setup.vdproj", "{20C3CB32-16A4-42D4-80C8-91C3891E9E77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E1DD661-4BD3-4414-9065-81C072D62D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1DD661-4BD3-4414-9065-81C072D62D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1DD661-4BD3-4414-9065-81C072D62D09}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2E1DD661-4BD3-4414-9065-81C072D62D09}.Debug|x64.Build.0 = Debug|Any CPU
+		{2E1DD661-4BD3-4414-9065-81C072D62D09}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2E1DD661-4BD3-4414-9065-81C072D62D09}.Debug|x86.Build.0 = Debug|Any CPU
+		{2E1DD661-4BD3-4414-9065-81C072D62D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1DD661-4BD3-4414-9065-81C072D62D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E1DD661-4BD3-4414-9065-81C072D62D09}.Release|x64.ActiveCfg = Release|Any CPU
+		{2E1DD661-4BD3-4414-9065-81C072D62D09}.Release|x64.Build.0 = Release|Any CPU
+		{2E1DD661-4BD3-4414-9065-81C072D62D09}.Release|x86.ActiveCfg = Release|Any CPU
+		{2E1DD661-4BD3-4414-9065-81C072D62D09}.Release|x86.Build.0 = Release|Any CPU
+		{20C3CB32-16A4-42D4-80C8-91C3891E9E77}.Debug|Any CPU.ActiveCfg = Debug
+		{20C3CB32-16A4-42D4-80C8-91C3891E9E77}.Debug|x64.ActiveCfg = Debug
+		{20C3CB32-16A4-42D4-80C8-91C3891E9E77}.Debug|x86.ActiveCfg = Debug
+		{20C3CB32-16A4-42D4-80C8-91C3891E9E77}.Release|Any CPU.ActiveCfg = Release
+		{20C3CB32-16A4-42D4-80C8-91C3891E9E77}.Release|x64.ActiveCfg = Release
+		{20C3CB32-16A4-42D4-80C8-91C3891E9E77}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2CA9924-768C-4ABE-95EB-A018777553AD}
+	EndGlobalSection
+EndGlobal
