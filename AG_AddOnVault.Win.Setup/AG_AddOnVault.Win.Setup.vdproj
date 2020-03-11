@@ -323,7 +323,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\AG_AddOnVault.Win.Setup.msi"
+        "OutputFilename" = "8:..\\Install_exe\\AG_AddOnVault.Win.Setup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -920,7 +920,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:AG AddOn Vault"
         "ProductCode" = "8:{E088E357-327F-4F3C-8E27-58A6B200E1EF}"
-        "PackageCode" = "8:{1A90AD2D-6A6A-4729-9559-0D78D55E440F}"
+        "PackageCode" = "8:{0F6550F5-5C60-4176-A7E7-FA3F79977B41}"
         "UpgradeCode" = "8:{E6263B72-28E1-4895-9C58-EF472E5ED0BC}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -1483,7 +1483,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_51B3206BED3B47738378A6F20D467DD9"
             {
-            "SourcePath" = "8:"
+            "SourcePath" = "8:..\\AG_AddOnVault\\obj\\Release\\AG_AddOnVault.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_86F476B1276A4878B3981C4753D2B94C"
