@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dlgSettings));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cbUseTabs = new System.Windows.Forms.CheckBox();
+            this.cbShowBuildWindow = new System.Windows.Forms.CheckBox();
             this.btnCreateVault = new System.Windows.Forms.Button();
             this.btnVaultLocation = new System.Windows.Forms.Button();
             this.txtVaultLocation = new System.Windows.Forms.TextBox();
@@ -68,8 +70,6 @@
             this.dlgFolderMusic = new System.Windows.Forms.FolderBrowserDialog();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
-            this.cbShowBuildWindow = new System.Windows.Forms.CheckBox();
-            this.cbUseTabs = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -111,6 +111,26 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Default Directories";
+            // 
+            // cbUseTabs
+            // 
+            this.cbUseTabs.AutoSize = true;
+            this.cbUseTabs.Location = new System.Drawing.Point(38, 477);
+            this.cbUseTabs.Name = "cbUseTabs";
+            this.cbUseTabs.Size = new System.Drawing.Size(262, 17);
+            this.cbUseTabs.TabIndex = 68;
+            this.cbUseTabs.Text = "Use Tabs for USB View (Alpha - Requires Restart)";
+            this.cbUseTabs.UseVisualStyleBackColor = true;
+            // 
+            // cbShowBuildWindow
+            // 
+            this.cbShowBuildWindow.AutoSize = true;
+            this.cbShowBuildWindow.Location = new System.Drawing.Point(38, 441);
+            this.cbShowBuildWindow.Name = "cbShowBuildWindow";
+            this.cbShowBuildWindow.Size = new System.Drawing.Size(182, 17);
+            this.cbShowBuildWindow.TabIndex = 67;
+            this.cbShowBuildWindow.Text = "Show Build Window (Debugging)";
+            this.cbShowBuildWindow.UseVisualStyleBackColor = true;
             // 
             // btnCreateVault
             // 
@@ -376,26 +396,6 @@
             this.btnCancel.TabIndex = 2;
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
-            // 
-            // cbShowBuildWindow
-            // 
-            this.cbShowBuildWindow.AutoSize = true;
-            this.cbShowBuildWindow.Location = new System.Drawing.Point(38, 441);
-            this.cbShowBuildWindow.Name = "cbShowBuildWindow";
-            this.cbShowBuildWindow.Size = new System.Drawing.Size(182, 17);
-            this.cbShowBuildWindow.TabIndex = 67;
-            this.cbShowBuildWindow.Text = "Show Build Window (Debugging)";
-            this.cbShowBuildWindow.UseVisualStyleBackColor = true;
-            // 
-            // cbUseTabs
-            // 
-            this.cbUseTabs.AutoSize = true;
-            this.cbUseTabs.Location = new System.Drawing.Point(38, 477);
-            this.cbUseTabs.Name = "cbUseTabs";
-            this.cbUseTabs.Size = new System.Drawing.Size(174, 17);
-            this.cbUseTabs.TabIndex = 68;
-            this.cbUseTabs.Text = "Use Tabs for USB View (Alpha)";
-            this.cbUseTabs.UseVisualStyleBackColor = true;
             // 
             // dlgSettings
             // 
